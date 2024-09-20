@@ -26,20 +26,23 @@ body {
 
 /* Login Form styles */
 .login-form {
-  margin: 20px auto;
+  /* margin: 20px auto; */
   padding: 20px;
+  margin: 0px auto !important;
+  margin-top: 200px;
   border: 1px solid #ccc;
   border-radius: 8px;
   background-color: #f9f9f9;
 }
 
-.login-form h2 {
+/* .login-form h2 {
   margin-bottom: 20px;
-}
+} */
 
 .login-form input,
 .login-form select {
-  width: calc(100% - 22px); /* Adjust for padding */
+  width: calc(100% - 22px);
+  /* Adjust for padding */
   padding: 10px;
   margin: 10px 0;
   border: 1px solid #ccc;
@@ -114,7 +117,8 @@ body {
 }
 
 .booking-form input {
-  width: calc(100% - 22px); /* Adjust for padding */
+  width: calc(100% - 22px);
+  /* Adjust for padding */
   padding: 10px;
   margin: 10px 0;
   border: 1px solid #ccc;

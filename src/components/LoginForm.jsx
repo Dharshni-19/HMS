@@ -13,8 +13,8 @@ function LoginForm({ onLogin }) {
     };
 
     return (
-        <div className="login-form">
-            <h2>Login</h2>
+        <div className="login-form text-center" style={{ "margin": "0 auto" }}>
+            <h2 className="text-center">Login here</h2>
             <form onSubmit={handleSubmit}>
                 <select value={role} onChange={(e) => setRole(e.target.value)} required>
                     <option value="">Select Role</option>
